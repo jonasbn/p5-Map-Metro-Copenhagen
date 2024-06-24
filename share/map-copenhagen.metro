@@ -40,12 +40,21 @@ Aksel Møllers Have
 Frederiksberg Allé
 Enghave Plads
 
+Havneholmen
+Enghave Brygge
+Sluseholmen
+Mozarts Plads
+København Syd
+
+Nordhavn
+Orientkaj
 --transfers
 
 --lines
 M1|M1|M1|color:#397c5d,width:8
 M2|M2|M2|color:#e8c929,width:8
 M3|M3|M3|color:#ff3333,width:8
+M4|M4|M4|color:#0f8ac9,width:8
 
 --segments
 M1,M2|Vanløse|Flintholm
@@ -72,11 +81,12 @@ M2|Amager Strand|Femøren
 M2|Femøren|Kastrup
 M2|Kastrup|Lufthavnen
 
-M3|København H|Rådhuspladsen
-M3|Rådhuspladsen|Gammel Strand
-M3|Gammel Strand|Kongens Nytorv
-M3|Kongens Nytorv|Marmorkirken
-M3|Marmorkirken|Østerport
+M3,M4|København H|Rådhuspladsen
+M3,M4|Rådhuspladsen|Gammel Strand
+M3,M4|Gammel Strand|Kongens Nytorv
+M3,M4|Kongens Nytorv|Marmorkirken
+M3,M4|Marmorkirken|Østerport
+
 M3|Østerport|Trianglen
 M3|Trianglen|Poul Henningsens Plads
 M3|Poul Henningsens Plads|Vibenshus Runddel
@@ -89,3 +99,11 @@ M3|Aksel Møllers Have|Frederiksberg
 M3|Frederiksberg|Frederiksberg Allé
 M3|Frederiksberg Allé|Enghave Plads
 M3|Enghave Plads|København H
+
+M4|Orientkaj|Nordhavn
+M4|Nordhavn|Østerport
+M4|København H|Havneholmen
+M4|Havneholmen|Enghave Brygge
+M4|Enghave Brygge|Sluseholmen
+M4|Sluseholmen|Mozarts Plads
+M4|Mozarts Plads|København Syd
